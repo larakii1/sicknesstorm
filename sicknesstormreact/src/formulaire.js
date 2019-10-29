@@ -124,8 +124,8 @@ class Formulaire extends React.Component{
 <div className ="ja">
     <h3>Player 1</h3>
     <div>
-    <p><input type ="text" placeholder ="your name " value={this.state.fullName} name = "fullName" onChange = {this.handleInputChange}/></p>
-    <p><button disabled={this.state.send1} onClick={()=>{this.postData(this.state.fullName); this.setState({send1:true})}}>Send</button></p>
+    <p><input className="valeur"type ="text" placeholder ="your name " value={this.state.fullName} name = "fullName" onChange = {this.handleInputChange}/></p>
+    <p><button className="add" disabled={this.state.send4} onClick={()=>{this.postData(this.state.fullName3); this.setState({send4:true})}}>Send</button></p>
     </div> 
 </div>
 
@@ -133,8 +133,8 @@ class Formulaire extends React.Component{
 <div className ="jb">
     <h3>Player 2</h3>
     <div>
-    <p><input type ="text" placeholder ="your name " value={this.state.fullName1} name = "fullName1" onChange = {this.handleInputChange}/></p>
-    <p><button disabled={this.state.send2} onClick={()=>{this.postData(this.state.fullName1); this.setState({send2:true})}}>Send</button></p>
+    <p><input className="valeurb"type ="text" placeholder ="your name " value={this.state.fullName1} name = "fullName1" onChange = {this.handleInputChange}/></p>
+    <p><button className="add" disabled={this.state.send4} onClick={()=>{this.postData(this.state.fullName3); this.setState({send4:true})}}>Send</button></p>
     </div> 
 </div>
 
@@ -142,8 +142,8 @@ class Formulaire extends React.Component{
 <div className ="jc">
     <h3>Player 3</h3>
     <div onSubmit={this.handleSubmit}>
-    <p><input type ="text" placeholder ="your name " value={this.state.fullName2} name = "fullName2" onChange = {this.handleInputChange}/></p>
-    <p><button disabled={this.state.send3} onClick={()=>{this.postData(this.state.fullName2); this.setState({send3:true})}}>Send</button></p>
+    <p><input className="valeurc" type ="text" placeholder ="your name " value={this.state.fullName2} name = "fullName2" onChange = {this.handleInputChange}/></p>
+    <p><button className="add" disabled={this.state.send4} onClick={()=>{this.postData(this.state.fullName3); this.setState({send4:true})}}>Send</button></p>
     </div> 
 </div>
 
@@ -151,15 +151,15 @@ class Formulaire extends React.Component{
 <div className ="jd">
     <h3>Player 4</h3>
     <div onSubmit={this.handleSubmit}>
-    <p><input type ="text" placeholder ="your name " value={this.state.fullName3} name = "fullName3" onChange = {this.handleInputChange}/></p>
-    <p><button disabled={this.state.send4} onClick={()=>{this.postData(this.state.fullName3); this.setState({send4:true})}}>Send</button></p>
+    <p><input className="valeurd" type ="text" placeholder ="your name " value={this.state.fullName3} name = "fullName3" onChange = {this.handleInputChange}/></p>
+    <p><button className="add" disabled={this.state.send4} onClick={()=>{this.postData(this.state.fullName3); this.setState({send4:true})}}>Send</button></p>
     </div> 
 </div>
 
 
 
 <div className="initialize">
-    <button onClick={()=> { this.getData()}}>Start game with ({this.state.numberOfPlayers}) players</button>
+    <button classNameonClick={()=> { this.getData()}}>Start game with ({this.state.numberOfPlayers}) players</button>
 </div>
 
 

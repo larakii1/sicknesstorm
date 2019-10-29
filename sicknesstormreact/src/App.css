@@ -48,7 +48,7 @@
 }
 
 .champs{
-  background-image:url('./images/bacteria.png');
+  background-image:url('./images/microbe.gif');
   
   height: 100%;
   width: 100%;
@@ -58,11 +58,147 @@
 }
 
 .border{
-  box-shadow: 1px 1px 1px black;
+  border: solid black;
+border-radius:20px;
 width: 300px;
 height: 600px;
-background: linear-gradient(#f0ca21, #e5ac14);
+background: rgb(255, 215, 85);
 }
+
+
+
+.valeur{
+ 
+	
+
+    position:relative;
+    
+
+    font-size: 1.5em;
+
+    background: linear-gradient(21deg, white,white);
+    
+
+    padding: 3px;
+  
+    display: inline-block;
+    
+    
+    border-radius: 9999em;
+    
+
+      position: relative;
+      display: inherit;
+   left: 18px;
+      width: 250px;
+      margin: 0;
+      border: solid black 2px;
+      outline: none;
+      padding: 0 .325em;
+      z-index: 1;
+        transform: scale(1);
+      }
+    
+
+.valeurb{
+ 
+	
+
+  position:relative;
+  
+
+  font-size: 1.5em;
+
+  background: linear-gradient(21deg, white,white);
+  
+
+  padding: 3px;
+
+  display: inline-block;
+  
+  
+  border-radius: 9999em;
+  
+
+    position: relative;
+    display: inherit;
+ left: 18px;
+    width: 250px;
+    margin: 0;
+    border: solid black 2px;
+    outline: none;
+    padding: 0 .325em;
+    z-index: 1;
+      transform: scale(1);
+    }
+  
+
+    .valeurc{
+ 
+	
+
+      position:relative;
+      
+  
+      font-size: 1.5em;
+  
+      background: linear-gradient(21deg, white,white);
+      
+  
+      padding: 3px;
+    
+      display: inline-block;
+      
+      
+      border-radius: 9999em;
+      
+  
+        position: relative;
+        display: inherit;
+     left: 18px;
+        width: 250px;
+        margin: 0;
+        border: solid black 2px;
+        outline: none;
+        padding: 0 .325em;
+        z-index: 1;
+          transform: scale(1);
+        }
+      
+
+        .valeurd{
+ 
+	
+
+          position:relative;
+          
+      
+          font-size: 1.5em;
+      
+          background: linear-gradient(21deg, white,white);
+          
+      
+          padding: 3px;
+        
+          display: inline-block;
+          
+          
+          border-radius: 9999em;
+          
+      
+            position: relative;
+            display: inherit;
+         left: 18px;
+            width: 250px;
+            margin: 0;
+            border: solid black 2px;
+            outline: none;
+            padding: 0 .325em;
+            z-index: 1;
+              transform: scale(1);
+            }
+          
+        
 
 .ja h3{
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -82,6 +218,17 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 .jd h3{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
+
+
+  .add{
+    width: 60px;
+    height: 30px;
+    border-radius: 30px;
+    background-image:url('./images/bacteria.png');
+    border: solid black 2px;
+    background-color:rgb(245, 83, 83);
+  }
+
 =======
 .App {
   text-align: center;
